@@ -14,10 +14,10 @@ import {
 const Footer = () => {
   return (
     <>
-    <h1 className="text-lg font-semibold font-mono ml-4 mt-10 p-2">
+    <h1 className="text-lg font-light font-mono ml-4 mt-10 p-2 ">
             TripMaker
           </h1>
-          <p className="mx-8 mb-8 text-gray-700 font-normel text-sm">
+          <p className="mx-8 mb-8 text-gray-700 font-normel text-sm max-sm:mx-4">
 TripMaker is an India-based travel and exploration website designed to inspire wanderlust and simplify trip planning.
 We help travelers discover hidden gems, cultural experiences, and must-visit destinations across India.
 From mountains to beaches, heritage sites to modern cities — explore everything in one place.
@@ -27,17 +27,14 @@ Whether it’s a weekend getaway or a cross-country adventure, TripMaker has you
 Connect with fellow explorers, share your journey, and inspire others to travel more.
 TripMaker — "Find the road, make the trip, and live the experience".
 
-
-
-
           </p>
-      <div className="flex justify-around items-center gap-4 my-3 mx-3 mb-20">
+      <div className="grid grid-cols-3 my-3 ml-10 mb-20  max-sm:grid-cols-1">
         <span>
           
           <span>
             <p className="font-medium">Tour Packages</p>
             {/* <p className="font-normel">In Multi States of India</p> */}
-            <ul className="text-gray-500 font-light grid gap-2 mt-4">
+            <ul className="text-gray-500 font-light grid gap-2 mt-4 max-sm:text-sm">
               <li className="flex items-center gap-1 cursor-pointer hover:underline">
                 <FaTrain />
                 Train Packages
@@ -62,8 +59,8 @@ TripMaker — "Find the road, make the trip, and live the experience".
           </span>
         </span>
         <div>
-          <p className="font-medium">Company</p>
-          <ul className="text-gray-500 font-light grid gap-2 mt-4">
+          <p className="font-medium mt-4">Company</p>
+          <ul className="text-gray-500 font-light grid gap-2 mt-2 list-disc max-sm:text-sm">
             <li className="cursor-pointer hover:underline">About Us</li>
             <li className="cursor-pointer hover:underline">Careers</li>
             <li className="cursor-pointer hover:underline">Blog</li>
@@ -71,9 +68,9 @@ TripMaker — "Find the road, make the trip, and live the experience".
           </ul>
         </div>
 
-        <div>
+        <div className="mt-4">
           <span className="font-medium">Get in touch</span>
-          <ul className="flex items-center gap-2 mt-4">
+          <ul className="flex items-center gap-2 mt-2 max-sm:text-sm">
             <li>
               <a>
                 <FaLinkedin size={28} className="border-2 border-black rounded-lg p-1" />
@@ -98,12 +95,12 @@ TripMaker — "Find the road, make the trip, and live the experience".
               </a>
             </li>
           </ul>
-          <span className="font-light">
+          <span className="font-light max-sm:text-sm">
             <p className="mt-3">copyrights &copy;2025 TripMaker.</p>
-            <ul className="flex items-center gap-1 mt-2">
-              <li>Advissor Page |</li>
-              <li>Explore Our Packages |</li>
-              <li>Terms & Condition |</li>
+            <ul className="flex items-center gap-1 mt-2 max-sm:grid max-sm:grid-cols-2 max-lg:grid max-lg:grid-cols-1">
+              <li>Advissor Page|</li>
+              <li>Explore Our Packages|</li>
+              <li>Terms & Condition|</li>
               <li>Privacy Policy.</li>
             </ul>
           </span>

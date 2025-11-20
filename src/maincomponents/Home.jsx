@@ -6,11 +6,15 @@ import Quates from '../components/head_components/Quates'
 import IndiaRoads from '../products/IndiaRoads'
 import States from '../components/head_components/States'
 import Footer from '../components/nav_components/Footer'
+import Nav320px from '../components/nav_components/Nav320px'
+
+
 
 const Home = () => {
   return (
     <>
        <div>
+        
         <Navbar/>
         <Text/>        
         <Header/>
