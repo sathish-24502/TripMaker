@@ -14,9 +14,9 @@ import {
 const Footer = () => {
   return (
     <>
-    <h1 className="text-lg font-light font-mono ml-4 mt-10 p-2 ">
-            TripMaker
-          </h1>
+     
+            <h1 className="font-mono w-32 border-l-2 border-t-2 shadow-inner rounded-l-xl p-1 ml-3 mb-2 border-[#a57237db] text-xl max-sm:text-lg">Trip<span className="border-b-2 border-[#a57237db]">Maker</span></h1>
+         
           <p className="mx-8 mb-8 text-gray-700 font-normel text-sm max-sm:mx-4">
 TripMaker is an India-based travel and exploration website designed to inspire wanderlust and simplify trip planning.
 We help travelers discover hidden gems, cultural experiences, and must-visit destinations across India.
@@ -73,25 +73,25 @@ TripMaker — "Find the road, make the trip, and live the experience".
           <ul className="flex items-center gap-2 mt-2 max-sm:text-sm">
             <li>
               <a>
-                <FaLinkedin size={28} className="border-2 border-black rounded-lg p-1" />
+                <FaLinkedin title="LinkedIn" size={28} className="border-2 border-black rounded-lg p-1" />
               </a>
             </li>
 
             <li>
               <a>
-                <FaInstagram size={28} className="border-2 border-black rounded-lg p-1" />
+                <FaInstagram title="Instagram" size={28} className="border-2 border-black rounded-lg p-1" />
               </a>
             </li>
 
             <li>
               <a>
-                <FaFacebook size={28} className="border-2 border-black rounded-lg p-1" />
+                <FaFacebook title="Facebook" size={28} className="border-2 border-black rounded-lg p-1" />
               </a>
             </li>
 
             <li>
               <a>
-                <FaTwitter size={28} className="border-2 border-black rounded-lg p-1" />
+                <FaTwitter title="Twitter" size={28} className="border-2 border-black rounded-lg p-1" />
               </a>
             </li>
           </ul>

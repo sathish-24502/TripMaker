@@ -7,7 +7,7 @@ const SignIn = () => {
     <>
     {/* <Nav320px/> */}
     <div>
-        <img className='relative h-screen w-screen max-w-screen-sm' src="https://wallpaperaccess.com/full/11735.jpg" alt="Picture" />
+        <img className='relative h-screen w-screen max-sm:w-screen' src="https://wallpaperaccess.com/full/11735.jpg" alt="Picture" />
     </div>
      <div className='flex justify-end mr-44 max-sm:mr-0'>
         <span className='flex flex-col justify-center items-center rounded-xl px-10 py-16 max-sm:py-8  shadow-2xl gap-4 absolute top-10 max-sm:top-0 '>
