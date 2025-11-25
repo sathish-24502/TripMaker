@@ -1,16 +1,57 @@
-# React + Vite
+🌍 TripMaker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive travel discovery web application built with React.js to explore India’s most famous tourist destinations.
 
-Currently, two official plugins are available:
+🚀 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+TripMaker is a modern and user-friendly travel guide application that helps users discover popular places across India. The project is developed using a component-based architecture, ensuring scalability and easy maintainability. The UI is fully responsive and optimized for mobile, tablet, and desktop devices.
 
-## React Compiler
+🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+React.js – UI development
 
-## Expanding the ESLint configuration
+Tailwind CSS – Styling and responsive design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+JavaScript – Core logic
+
+React Router DOM – Page navigation
+
+React Icons – Icon components
+
+📂 Project Structure (Components)
+
+Navbar – Top navigation bar
+
+Footer – Application footer
+
+SearchBar – Search functionality for places
+
+ProductsCard – Displays famous destination cards
+
+Login – User login page
+
+SignIn – User sign-up page
+
+Pages Folder – Contains main pages like Home, Trips, and more
+
+🎨 Features
+
+Fully responsive UI (mobile, tablet & desktop)
+
+Clean and modular component structure
+
+Displays famous tourist places in India using curated images
+
+Smooth navigation across pages
+
+Simple and elegant UI with Tailwind CSS
+
+Organized codebase for easy scalability
+
+📸 Images
+
+All destination images used in this project are sourced from the internet for demonstration purposes.
+
+📌 Purpose
+
+TripMaker is designed as a simple and intuitive travel guide platform showcasing India’s iconic travel spots. It is ideal for learning and practicing React components, routing, Tailwind styling, and responsive layout design.
