@@ -1,16 +1,18 @@
 import React from "react";
 import { FaBars, FaUser, FaSign } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import logoTrip from '../assets/TripLogo.png';
 
 const Navbar = () => {
   return (
     <>
       <div>
-        <section className="flex justify-between items-center p-4 mx-20 max-sm: my-10 border-b-4 border-green-100 max-sm:mx-0 max-sm:my-2 max-sm:w-screen">
+        <section className="flex justify-between items-center p-4 mx-10 border-b-4 border-green-100 max-sm:mx-0 max-sm:my-2 max-sm:w-screen">
           <span>
-            <h1 className="font-mono border-l-2 border-t-2 shadow-inner rounded-l-xl p-1 border-[#a57237db] text-xl max-sm:text-lg">
+            <img src={logoTrip} alt="Logo" className="size-32"/>
+            {/* <h1 className="font-mono border-l-2 border-t-2 shadow-inner rounded-l-xl p-1 border-[#a57237db] text-xl max-sm:text-lg">
               Trip<span className="border-b-2 border-[#a57237db]">Maker</span>
-            </h1>
+            </h1> */}
           </span>
           <div className="flex gap-4  max-sm:gap-1">
             <Link className="hidden max-sm:flex">

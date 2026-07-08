@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import { ProductCards } from "./ProductDatas";
-import Footer from "../components/nav_components/Footer";
-// import CardNavbar from "../components/nav_components/CardNavbar";
+import Footer from "../components/Footer";
 import { FaStar } from "react-icons/fa";
-import LikeCounter from "../components/head_components/Likes";
+import LikeCounter from "../components/Likes";
 
 const ProductsData = () => {
   const [Pruduct, SetProducts] = useState(ProductCards);

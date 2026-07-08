@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Nav320px from '../components/nav_components/Nav320px'
+import Nav320px from '../components/Nav320px'
 
 const SignIn = () => {
   return (

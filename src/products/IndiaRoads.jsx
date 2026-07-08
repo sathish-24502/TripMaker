@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaArrowAltCircleRight, FaRupeeSign } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import Maximize from "../components/head_components/Maximize";
+import Maximize from "../components/Maximize";
 // import { ProductCards } from "./ProductDatas";
 
 const IndiaRoads = () => {

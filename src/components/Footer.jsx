@@ -11,11 +11,13 @@ import {
   FaBus,
 } from "react-icons/fa";
 
+import logoTrip from '../assets/TripLogo.png'
+
 const Footer = () => {
   return (
     <>
      
-            <h1 className="font-mono w-32 border-l-2 border-t-2 shadow-inner rounded-l-xl p-1 ml-3 mb-2 border-[#a57237db] text-xl max-sm:text-lg">Trip<span className="border-b-2 border-[#a57237db]">Maker</span></h1>
+            <img src={logoTrip} alt="Logo" className="size-32"/>
          
           <p className="mx-8 mb-8 text-gray-700 font-normel text-sm max-sm:mx-4">
 TripMaker is an India-based travel and exploration website designed to inspire wanderlust and simplify trip planning.

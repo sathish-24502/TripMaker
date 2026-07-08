@@ -20,12 +20,12 @@ const Header = () => {
            <span className="flex p-4 justify-center w-screen">
             <input
               placeholder="Search here liked hotels , Restaurants , etc..."
-              className="w-1/2 max-sm:w-4/5 max-sm:rounded-xl rounded-xl border-2 border-gray-300 p-1 focus:outline-none "
+              className="w-1/2 max-sm:w-4/5 max-sm:rounded-xl rounded-xl border-2 border-blue-900 p-3 focus:outline-none "
               type="text"
             />
           </span>
           <span className="w-screen flex justify-center">
-            <button className="border-2 border-green-200 rounded-full px-2 font-medium bg-[#a57237db] p-1 flex items-center gap-1"><FaSearch className="border-2 border-green-400 text-2xl rounded-full p-1"/>Search</button>
+            <button className="font-medium hover:bg-[#37a2ff] rounded-xl shadow-md shadow-gray-300 p-2 flex items-center gap-1"><FaSearch className=""/>Search</button>
           </span>
          </div>
         </section>
